@@ -47,7 +47,7 @@ def test_name_category_generator_mock_regex(funny_name_generator, requests_mock)
         },
         "copyright": "https://fungenerators.com/",
     }
-    url_regex = re.compile("https://api.fungenerators.com/")
+    url_regex = re.compile("^https://api.fungenerators.com/.*")
     requests_mock.get(url_regex, text=json.dumps(response_json))
     assert [
         "Raymond Trarie",
