@@ -1,0 +1,9 @@
+# testing libraries
+pytest-flask
+pytest-mock
+pytest-lazy-fixture
+requests-mock
+# formatting
+autopep8
+isort
+pylint
