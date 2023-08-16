@@ -7,7 +7,7 @@ Feel free to contribute! :)
 ## Requirements
 
 ### Python
-- [Python 3.7](https://www.python.org/downloads/) or greater.
+- [Python 3.11](https://www.python.org/downloads/)
 
 - Install project requirements:
 ```bash
